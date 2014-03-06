@@ -4,5 +4,6 @@
     <string name="app_name">FoursquareMap</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="key_debug_map">AIzaSyBDxfKbJaox3RNNGyGIRp24LSh2E6dA_5E</string>
 
 </resources>

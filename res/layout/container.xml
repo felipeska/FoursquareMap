@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_main_contenido"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16.0dip" >
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="286.0dip"
+            android:background="@drawable/bg_main_middle"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/window_background"
+            android:orientation="vertical"
+            android:paddingBottom="16.0dip"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip" >
+
+            <FrameLayout
+                android:id="@+id/fragment_main_firstrun"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dip"
+                android:background="@color/window_background" >
+
+                <ImageView
+                    android:id="@+id/imageViewEmpty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/list_empty_state_mars" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
