@@ -24,10 +24,8 @@ public class MapActivity extends SherlockFragmentActivity {
 	private void addContent() {
 		Fragment mFragmentContainer = new ContentFragment();
 		FragmentManager fragmentManager = getSupportFragmentManager();
-		fragmentManager
-				.beginTransaction()
-				.setCustomAnimations(anim.slide_in_from_bottom,
-						anim.slide_out_to_bottom)
+		fragmentManager.beginTransaction()
+				.setCustomAnimations(anim.slide_in_from_bottom, 0)
 				.replace(R.id.container, mFragmentContainer).commit();
 	}
 
